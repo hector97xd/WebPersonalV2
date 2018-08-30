@@ -1,0 +1,14 @@
+{
+  "name": "materialize",
+  "version": "1.0.0",
+  "description": "acerca de mi",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Hector Guevara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.2"
+  }
+}

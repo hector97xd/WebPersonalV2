@@ -1,0 +1,213 @@
+@import url('../fonts/Anton-Regular.ttf');
+
+.fontAnton {
+    font-family: 'Anton', sans-serif;
+}
+
+#sideFotoText {
+    margin-left: 30%;
+}
+
+.foto {
+    width: 100px;
+    height: 142px;
+    border-radius: 90%;
+}
+
+.perfil {
+    margin-top: -20px;
+    border-radius: 90%;
+    border: solid;
+    border-color: #26a69a teal;
+}
+
+.perfil2 {
+    width: 170px;
+    height: 242px;
+    border-radius: 90%;
+    border: solid;
+    border-color: #26a69a teal;
+}
+
+.fondo {
+    background-color: #0B0C0D;
+}
+
+.nombre {
+    size: 50px;
+}
+
+.logos {
+    margin-left: 50px;
+    margin-top: -30px;
+}
+
+#linkedin {
+    color: #2BBBAD;
+    margin-left: 20px;
+}
+
+#github {
+    color: #2BBBAD;
+    size: 45px;
+    margin-top: -63px;
+    margin-left: 20px;
+}
+
+#menu {
+    padding: 0%;
+}
+
+header,
+main,
+footer {
+    padding-left: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+
+.nav {
+    position: absolute;
+    height: 70PX;
+    width: 100%;
+    background-color: #0B0C0D;
+}
+
+p {
+    text-align: justify;
+    font-family: "Arial Narrow";
+}
+
+.contenedor {
+    margin-left: 15%;
+}
+
+header {
+    opacity: 0.5;
+    box-shadow: 1px 1px 5px #000;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+}
+
+.menu {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#frase {
+    background-color: darkgreen;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../fonts/material.jpg');
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+#acerca {
+    height: 100%;
+    padding-top: 14%;
+    background: #272727;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #272727 0%, #272727 52%, #00887a 52%, #00c49c 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #272727 0%, #272727 52%, #00887a 52%, #00c49c 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #272727 0%, #272727 52%, #00887a 52%, #00c49c 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#272727', endColorstr='#00c49c', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.card-panel {
+    background: rgba(200,200,200,0.65);
+    /* background: #AAAAAA; */
+    border-radius: 50px;
+    border: #0B0C0D solid;
+}
+
+#contactar {
+    height: 100%;
+    padding-top: 6%;
+}
+
+#experiencia {
+    padding-top: 17%;
+    overflow: auto;
+    height: 100%;
+    background: #272727; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #272727 0%, #272727 52%, #00887a 52%, #00c49c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #272727 0%,#272727 52%,#00887a 52%,#00c49c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #272727 0%,#272727 52%,#00887a 52%,#00c49c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#272727', endColorstr='#00c49c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.textHeader{
+    color:#00887A;
+    font-family: 'Anton', sans-serif; 
+    background-color: #272727;
+    border:black solid;
+    border-radius: 50px 50px 0px 0px;
+    margin-top: -35px;
+    margin-left: -40px;
+    width: 110%;
+    padding:10px;
+}
+.textHeaderE{
+    color:#00887A;
+    font-family: 'Anton', sans-serif; 
+    background-color: #272727;
+    border:black solid;
+    border-radius: 50px 50px 0px 0px;
+    margin-top: -35px;
+    margin-left: -40px;
+    width: 115%;
+    padding:10px;
+}
+.textHeaderPhone{
+    color:#00887A;
+    font-family: 'Anton', sans-serif; 
+    background-color: #272727;
+    border:black solid;
+    border-radius: 50px 50px 0px 0px;
+    margin-top: -35px;
+    margin-left: -40px;
+    width: 128%;
+    padding:10px;
+}
+.textHeaderPhoneE{
+    color:#00887A;
+    font-family: 'Anton', sans-serif; 
+    background-color: #272727;
+    border:black solid;
+    border-radius: 50px 50px 0px 0px;
+    margin-top: -43px;
+    margin-left: -52px;
+    width: 200%;
+    padding:10px;
+}
